@@ -234,6 +234,7 @@
 }
 
 
+/* footer style */
 .footer
 {
     position: relative;
@@ -289,5 +290,229 @@
     font-size: 30px;
     color: #ababab;
     padding: 15px;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 800px)
+{ 
+    .banner-container
+    {
+        height: 50vh;
+    }
+    
+    .banner 
+    {
+        height: 40vh;
+    }
+    
+    .banner-text
+    {
+        padding: 4rem 1rem 2rem 3rem;
+    }
+    
+    .banner-text h1
+    {
+        font-size: 20px;
+        padding-bottom: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .banner-text p
+    {
+        color: #bdbdbd;
+        font-size: 10px;
+    }
+    
+    .banner-text a
+    {
+        width: 20%;
+        min-width: 150px;
+        font-size: 14px;
+        padding: 12px;
+        margin-top: 25px;
+    }
+    
+    .banner-text i
+    {
+        font-size: 12px;
+    }
+
+    .blog-container
+    {
+        width: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog
+    {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        margin-left: 120px;
+    }
+
+    .link
+    {
+        width:100%;
+        background-color:white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+
+    }
+
+    .link a
+    {
+      
+        font-size: 12px;
+        background-color: white;
+    }
+
+    .link a:hover
+    {
+        background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+        color: white;
+    }
+
+    .link .active
+    {
+        background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+        color: white;
+    }
+    
+    .blogs
+    {
+        height: 100%;
+        position: relative;
+        top: 20px;
+        width: 100%;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        margin-left: 0px;
+    
+    }
+
+    .blog-info
+    {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .blog-image img
+    {
+        width: 100%;
+        height: 150px;
+        padding-bottom: 20px;
+    }
+
+    .blog-button a
+    {
+        width: 100%;
+        font-size: 12px;
+        background-color: white;
+        padding: 8px 20px;
+   
+    }
+
+    .blog-button a:hover
+    {
+        background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+        color: white;
+    }
+
+    .blog-title h1
+    {
+        font-size: 12px;
+        padding: 20px 10px 0px 20px;
+    }
+
+    .blog-footer
+    {
+        display: flex;
+        justify-content: left;
+        padding: 20px;
+    }
+
+    .blog-footer i
+    {
+        padding: 10px 25px 25px 0;
+        color: grey;
+        text-transform: lowercase;
+    }
+
+    .blog-footer span
+    {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .footer
+    {
+        position: relative;
+        top: 1000px;
+        height: 300px;
+    }
+
+    .footer hr
+    {
+        width: 60%;
+        opacity: 0.3;
+    }
+
+    .footer-title h1
+    {
+
+        font-size: 25px;
+        color: whitesmoke;
+        padding: 25px;
+    }
+
+    .footer-menu
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu-item
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item a
+    {
+        color: #ababab;
+        text-decoration: none;
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .social-icon i
+    {
+        font-size: 30px;
+        color: #ababab;
+        padding: 15px;
+    }
+
 }
 
