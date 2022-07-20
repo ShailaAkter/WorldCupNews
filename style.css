@@ -3,5 +3,291 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Expletus Sans', cursive;
+    font-family: 'Gentium Book Plus', serif; */
 }
+
+/* banner style */
+.banner-container
+{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner 
+{
+    background-color: #161616;
+    width: 80%;
+    height: 90vh;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+}
+
+.banner-text
+{
+    width: 50%;
+    height: 100%;
+    padding: 8rem 2rem 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.banner-text h1
+{
+    color:#FFFFFF;
+    font-size: 70px;
+    padding-bottom: 1.5rem;
+    line-height: 5rem;
+    text-shadow: 2px 2px rgb(162, 3, 3);
+}
+
+.banner-text p
+{
+    color: #bdbdbd;
+    font-size: 16px;
+}
+
+.banner-text a
+{
+    width: 35%;
+    min-width: 200px;
+    font-family: 'Expletus Sans';
+    color: white;
+    font-size: 22px;
+    background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+    padding: 14px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px grey;
+}
+
+.banner-text i
+{
+    font-size: 12px;
+}
+
+.banner-text a:hover
+{
+    background: linear-gradient(315deg,#d92424 0%, #5e0404 70%); 
+    box-shadow: 2px 2px 2px white;
+}
+
+.banner-image
+{
+    width: 50%;
+    position: relative;
+}
+
+.banner-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* blog style */
+
+.blog-container
+{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.link
+{
+    width: 15%;
+    min-width: 300px;
+    max-height: 22rem;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.link a
+{
+    width: 100%;
+    font-family: 'Expletus Sans';
+    color: Black;
+    font-size: 20px;
+    background-color: white;
+    padding: 14px 10px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link a:hover
+{
+    background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+    color: white;
+}
+
+.link .active
+{
+    background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+    color: white;
+}
+
+
+.blogs
+{
+    width: 80%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin-left: 20px;
+}
+
+.blog-info
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-image img
+{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.blog-button a
+{
+    width: 100%;
+    font-family: 'Expletus Sans';
+    color: Black;
+    font-size: 15px;
+    background-color: white;
+    padding: 10px 25px;
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.blog-button a:hover
+{
+    background: linear-gradient(315deg, #5e0404 0%, #d92424 70%);  
+    color: white;
+}
+
+.blog-title h1
+{
+    font-size: 15px;
+    padding: 30px 20px 0px 20px;
+}
+
+.blog-footer
+{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+.blog-footer i
+{
+    padding: 10px 25px 25px 0;
+    color: grey;
+    text-transform: lowercase;
+}
+
+.blog-footer span
+{
+    padding: 8px;
+}
+
+
+.footer
+{
+    position: relative;
+    top: 600px;
+    height: 300px;
+    width: 100%;
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer hr
+{
+    width: 60%;
+    opacity: 0.3;
+}
+
+.footer-title h1
+{
+
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 25px;
+}
+
+.footer-menu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-item
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item a
+{
+    color: #ababab;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.social-icon i
+{
+    font-size: 30px;
+    color: #ababab;
+    padding: 15px;
+}
+
