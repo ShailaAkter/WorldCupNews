@@ -93,6 +93,17 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: 1s;
+}
+
+
+.banner-image img:hover
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.3;
 }
 
 /* blog style */
