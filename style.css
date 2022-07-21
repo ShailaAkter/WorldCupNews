@@ -723,6 +723,19 @@
         padding: 10px;
     }
 
+    .blog-info
+    {
+        margin-left: 50px;
+        margin-bottom: 10px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
     .blog-footer i
     {
         font-size: 12px;
@@ -730,6 +743,7 @@
         color: grey;
         text-transform: lowercase;
     }
+
 
     .blog-footer span
     {
